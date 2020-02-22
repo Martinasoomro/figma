@@ -1,0 +1,43 @@
+* {
+  font-family: "Poppins";
+}
+
+.navigation {
+  position: absolute;
+  width: 1400px;
+  height: 78px;
+  left: 0px;
+  top: 20px;
+  color: #2f281e;
+}
+
+.logo {
+  margin-top: 22px;
+  margin-right: 320px;
+  margin-left: 143px;
+  margin-bottom: 24;
+}
+
+.sign-in {
+  position: absolute;
+  left: 73.5%;
+  right: 19.21%;
+  top: 19.23%;
+  bottom: 21.79%;
+  color: #173a56;
+}
+
+.sign-up {
+  position: absolute;
+  left: 81.79%;
+  right: 10.36%;
+  top: 19.23%;
+  bottom: 21.79%;
+  color: #ffffff;
+  background-color: #ff9900;
+  border: none;
+}
+
+.navlinks {
+  text-decoration: none;
+}
