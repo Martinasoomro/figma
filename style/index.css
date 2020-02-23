@@ -18,6 +18,15 @@
   margin-bottom: 24;
 }
 
+.rectangle {
+  margin-right: 145px;
+  margin-left: 1027px;
+  width: 228px;
+  height: 46px;
+  left: -2px;
+  top: 0px;
+}
+
 .sign-in {
   position: absolute;
   left: 73.5%;
@@ -25,6 +34,10 @@
   top: 19.23%;
   bottom: 21.79%;
   color: #173a56;
+  background-color: none;
+  border: 1px solid #bcd0e5;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .sign-up {
@@ -35,9 +48,105 @@
   bottom: 21.79%;
   color: #ffffff;
   background-color: #ff9900;
+  border-radius: 4px;
   border: none;
 }
 
 .navlinks {
   text-decoration: none;
+  /* position: absolute;
+  height: 28px;
+  left: 46.43%;
+  right: 28.57%;
+  top: calc(50% - 28px / 2 - 1px);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px; */
+}
+
+.header {
+  position: absolute;
+  width: 1126px;
+  height: 496px;
+  left: 145px;
+  top: 128px;
+}
+
+.leftside {
+  position: absolute;
+  width: 1126px;
+  height: 496px;
+  left: 145px;
+  top: 128px;
+}
+
+.text {
+  position: absolute;
+  width: 518px;
+  height: 108px;
+  left: 145px;
+  top: 211px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 54px;
+}
+
+.tools {
+  position: absolute;
+  width: 458px;
+  height: 95px;
+  left: 145px;
+  top: 349px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.get-started {
+  position: absolute;
+  width: 175px;
+  height: 53px;
+  left: 145px;
+  top: 489px;
+  background: #ff9900;
+  border-radius: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  color: #ffffff;
+}
+
+.button-watch-the-video {
+  position: absolute;
+  width: 161px;
+  height: 23px;
+  left: 350px;
+  top: 504px;
+  border: none;
+  color: #ff9900;
+}
+
+.text-watch {
+  position: absolute;
+  height: 24px;
+  left: 16.15%;
+  right: 0%;
+  top: calc(50% - 24px / 2 + 0.5px);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
 }
