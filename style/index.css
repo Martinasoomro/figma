@@ -54,16 +54,7 @@
 
 .navlinks {
   text-decoration: none;
-  /* position: absolute;
-  height: 28px;
-  left: 46.43%;
-  right: 28.57%;
-  top: calc(50% - 28px / 2 - 1px);
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 28px; */
+  padding-left: 10px;
 }
 
 .header {
@@ -74,12 +65,24 @@
   top: 128px;
 }
 
-.leftside {
+.left-side {
   position: absolute;
   width: 1126px;
   height: 496px;
   left: 145px;
   top: 128px;
+}
+
+.img-right {
+  position: absolute;
+  width: 605px;
+  height: 496px;
+  left: 666px;
+  top: 128px;
+  /* margin-left: 129px;
+  margin-top: 30px;
+  margin-left: 666px;
+  margin-bottom: 110px; */
 }
 
 .text {
@@ -149,4 +152,137 @@
   font-size: 16px;
   line-height: 24px;
   text-decoration-line: underline;
+}
+
+.feature {
+  position: absolute;
+  width: 2211px;
+  height: 543px;
+  left: -406px;
+  top: 734px;
+}
+
+.we-design {
+  position: absolute;
+  height: 108px;
+  left: 38.22%;
+  right: 37.4%;
+  top: calc(50% - 108px / 2 - 217.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+
+  color: #2f281e;
+  /* margin-right: 422px;
+  margin-left: 439px;
+  margin-top: 129px; */
+}
+
+.card {
+  position: absolute;
+  width: 1095px;
+  height: 204px;
+  left: 567px;
+  top: 162px;
+}
+
+.card-1 {
+  position: absolute;
+  width: 240px;
+  height: 204px;
+  left: 1422px;
+  top: 162px;
+}
+
+.icon-1 {
+  position: absolute;
+  left: 64.09%;
+  right: 33.6%;
+  top: 29.83%;
+  bottom: 60.96%;
+  position: absolute;
+  height: 18px;
+  left: 36%;
+  right: 36%;
+  top: calc(50% - 18px / 2 + 1px);
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #4dadf7;
+  border-radius: 19px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  bottom: 0%;
+  background: #4dadf7;
+  mix-blend-mode: normal;
+  opacity: 0.85;
+  filter: blur(27.1828px);
+  border-radius: 19px;
+}
+
+.card-2 {
+  position: absolute;
+  width: 240px;
+  height: 178px;
+  left: 1138px;
+  top: 162px;
+}
+
+.card-3 {
+  position: absolute;
+  width: 240px;
+  height: 178px;
+  left: 853px;
+  top: 162px;
+}
+
+.card-4 {
+  position: absolute;
+  width: 240px;
+  height: 178px;
+  left: 567px;
+  top: 162px;
+}
+
+.sign-up-now {
+  position: absolute;
+  left: 46.45%;
+  right: 45.64%;
+  top: 73.66%;
+  bottom: 16.57%;
+
+  position: absolute;
+  height: 24px;
+  left: 19.43%;
+  right: 18.29%;
+  top: calc(50% - 24px / 2 + 0.5px);
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #ff9900;
+  border-radius: 4px;
 }
