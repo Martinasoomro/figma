@@ -28,20 +28,29 @@
 }
 
 .sign-in {
-  position: absolute;
+  /* position: absolute; */
   left: 73.5%;
   right: 19.21%;
   top: 19.23%;
   bottom: 21.79%;
   color: #173a56;
-  background-color: none;
+  background-color: white;
   border: 1px solid #bcd0e5;
   box-sizing: border-box;
   border-radius: 4px;
+  margin-top: 35px;
+  margin-bottom: 47px;
+  height: 46px;
+  width: 110px;
+}
+
+.sign-in:hover {
+  background-color: #ff9900;
+  color: white;
 }
 
 .sign-up {
-  position: absolute;
+  /* position: absolute; */
   left: 81.79%;
   right: 10.36%;
   top: 19.23%;
@@ -50,27 +59,55 @@
   background-color: #ff9900;
   border-radius: 4px;
   border: none;
+  margin-top: 35px;
+  margin-right: 145px;
+  margin-left: 14px;
+  margin-bottom: 47px;
+  height: 46px;
+  width: 110px;
+}
+
+.sign-up:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #bcd0e5;
 }
 
 .navlinks {
   text-decoration: none;
   padding-left: 10px;
+  height: 28px;
+  left: 46.07%;
+  right: 28.93%;
+  top: calc(50% - 28px / 2);
+  font-size: 14px;
+  line-height: 2px;
+  word-spacing: 27px;
+  color: #2f281e;
+  margin-right: 12px;
+}
+
+.navlinks:hover {
+    color: #ff9900;
+  }
 }
 
 .header {
-  position: absolute;
   width: 1126px;
   height: 496px;
   left: 145px;
   top: 128px;
+  bottom: 110px;
+  right: 129px;
 }
 
 .left-side {
-  position: absolute;
-  width: 1126px;
-  height: 496px;
+  /* position: absolute; */
+  width: 518px;
+  height: 331px;
   left: 145px;
-  top: 128px;
+  top: 211px;
+  margin-right: 737px;
 }
 
 .img-right {
@@ -79,10 +116,8 @@
   height: 496px;
   left: 666px;
   top: 128px;
-  /* margin-left: 129px;
   margin-top: 30px;
-  margin-left: 666px;
-  margin-bottom: 110px; */
+  margin-right: 129px;
 }
 
 .text {
@@ -132,12 +167,14 @@
 
 .button-watch-the-video {
   position: absolute;
-  width: 161px;
+  width: 200px;
   height: 23px;
   left: 350px;
   top: 504px;
   border: none;
   color: #ff9900;
+  text-decoration: underline;
+  background-color: white;
 }
 
 .text-watch {
@@ -196,6 +233,8 @@
   height: 204px;
   left: 1422px;
   top: 162px;
+  margin-right: 144px;
+  margin-bottom: 144px;
 }
 
 .icon-1 {
@@ -222,7 +261,7 @@
   bottom: 0%;
   background: #4dadf7;
   border-radius: 19px;
-  position: absolute;
+  /* position: absolute;
   left: 0%;
   right: 0%;
   top: 50%;
@@ -231,7 +270,7 @@
   mix-blend-mode: normal;
   opacity: 0.85;
   filter: blur(27.1828px);
-  border-radius: 19px;
+  border-radius: 19px; */
 }
 
 .card-2 {
