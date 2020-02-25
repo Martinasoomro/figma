@@ -88,8 +88,7 @@
 }
 
 .navlinks:hover {
-    color: #ff9900;
-  }
+  color: #ff9900;
 }
 
 .header {
@@ -165,6 +164,12 @@
   color: #ffffff;
 }
 
+.get-started:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #bcd0e5;
+}
+
 .button-watch-the-video {
   position: absolute;
   width: 200px;
@@ -175,6 +180,14 @@
   color: #ff9900;
   text-decoration: underline;
   background-color: white;
+}
+
+.image:hover {
+  background-color: black;
+}
+
+.button-watch-the-video:hover {
+  color: black;
 }
 
 .text-watch {
@@ -214,17 +227,22 @@
   text-align: center;
 
   color: #2f281e;
-  /* margin-right: 422px;
+  /* margin-bottom: 45px;
   margin-left: 439px;
-  margin-top: 129px; */
+  margin-right: 422px;
+  margin-top: 734px; */
 }
 
 .card {
-  position: absolute;
+  /* position: absolute; */
   width: 1095px;
   height: 204px;
   left: 567px;
   top: 162px;
+  margin-right: 549px;
+  margin-top: 162px;
+  margin-bottom: 177px;
+  margin-left: 567px;
 }
 
 .card-1 {
@@ -238,39 +256,6 @@
 }
 
 .icon-1 {
-  position: absolute;
-  left: 64.09%;
-  right: 33.6%;
-  top: 29.83%;
-  bottom: 60.96%;
-  position: absolute;
-  height: 18px;
-  left: 36%;
-  right: 36%;
-  top: calc(50% - 18px / 2 + 1px);
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-  background: #4dadf7;
-  border-radius: 19px;
-  /* position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 50%;
-  bottom: 0%;
-  background: #4dadf7;
-  mix-blend-mode: normal;
-  opacity: 0.85;
-  filter: blur(27.1828px);
-  border-radius: 19px; */
 }
 
 .card-2 {
@@ -281,12 +266,18 @@
   top: 162px;
 }
 
+.icon-2 {
+}
+
 .card-3 {
   position: absolute;
   width: 240px;
   height: 178px;
   left: 853px;
   top: 162px;
+}
+
+.icon-3 {
 }
 
 .card-4 {
@@ -297,14 +288,17 @@
   top: 162px;
 }
 
+.icon-4 {
+}
+
 .sign-up-now {
-  position: absolute;
+  /* position: absolute; */
   left: 46.45%;
   right: 45.64%;
   top: 73.66%;
   bottom: 16.57%;
 
-  position: absolute;
+  /* position: absolute; */
   height: 24px;
   left: 19.43%;
   right: 18.29%;
@@ -316,12 +310,22 @@
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  margin-right: 1009;
+  margin-left: 1027;
+  margin-top: 400px;
+  margin-bottom: 90px;
 
-  position: absolute;
+  /* position: absolute; */
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
   background: #ff9900;
   border-radius: 4px;
+}
+
+.sign-up-now:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #bcd0e5;
 }
